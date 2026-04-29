@@ -1,4 +1,6 @@
-# Feature Description
+# Blackboard Activity, Attendance, & Academic Performance: Understanding Student Engagement and Predicting Success in PSYC2019
+
+**Author:** [Your Name] | [email@university.ac.uk]
 
 ## Overview
 This project investigates the relationship between student engagement and final module marks using routinely collected institutional data. The study focuses on whether engagement indicators are associated with academic performance and whether these indicators can help identify patterns of success or risk.
