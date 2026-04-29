@@ -1,0 +1,26 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:            Module mark   R-squared:                       0.459
+Model:                            OLS   Adj. R-squared:                  0.454
+Method:                 Least Squares   F-statistic:                     95.51
+Date:                Sat, 18 Apr 2026   Prob (F-statistic):           9.36e-31
+Time:                        16:13:21   Log-Likelihood:                -972.76
+No. Observations:                 228   AIC:                             1952.
+Df Residuals:                     225   BIC:                             1962.
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+======================================================================================
+                         coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------
+const                 37.6236      2.474     15.207      0.000      32.748      42.499
+Hours in Course        0.2856      0.032      8.845      0.000       0.222       0.349
+Total attendance %     0.2310      0.050      4.661      0.000       0.133       0.329
+==============================================================================
+Omnibus:                        5.479   Durbin-Watson:                   2.088
+Prob(Omnibus):                  0.065   Jarque-Bera (JB):                3.360
+Skew:                           0.089   Prob(JB):                        0.186
+Kurtosis:                       2.432   Cond. No.                         203.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

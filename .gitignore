@@ -1,0 +1,5 @@
+# Ignore .xlsx files directly in the data folder (not subdirectories)
+data/*.xlsx
+
+# Ignore all files in student_dataset
+data/student_dataset/*

@@ -1,0 +1,6 @@
+Predictor,Pearson r,p-value,Statistically significant,N
+Hours in Course,0.6379,1.89e-27,Yes,228
+Lecture attendance %,0.5028,5.18e-16,Yes,228
+Workshop attendance %,0.4448,1.78e-12,Yes,228
+Feedback attendance %,0.4509,8.11e-13,Yes,228
+Total attendance %,0.5207,3.06e-17,Yes,228

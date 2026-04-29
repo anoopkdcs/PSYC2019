@@ -1,0 +1,36 @@
+RELATIONSHIPS AMONG PREDICTORS
+============================================================
+
+PREDICTOR VARIABLES
+------------------------------------------------------------
+Hours in Course
+Lecture attendance %
+Workshop attendance %
+Feedback attendance %
+Total attendance %
+
+CORRELATION MATRIX
+------------------------------------------------------------
+                       Hours in Course  Lecture attendance %  Workshop attendance %  Feedback attendance %  Total attendance %
+Hours in Course               1.000000              0.465147               0.424437               0.470815            0.507536
+Lecture attendance %          0.465147              1.000000               0.677223               0.713494            0.886289
+Workshop attendance %         0.424437              0.677223               1.000000               0.701106            0.887553
+Feedback attendance %         0.470815              0.713494               0.701106               1.000000            0.906111
+Total attendance %            0.507536              0.886289               0.887553               0.906111            1.000000
+
+VARIANCE INFLATION FACTOR (VIF)
+------------------------------------------------------------
+            Predictor          VIF
+      Hours in Course 4.395500e+00
+ Lecture attendance % 3.639347e+07
+Workshop attendance % 2.157868e+07
+Feedback attendance % 2.156023e+07
+   Total attendance % 2.154051e+08
+
+INTERPRETATION GUIDE
+------------------------------------------------------------
+High correlations among predictors may indicate redundancy.
+VIF > 5 suggests possible multicollinearity.
+VIF > 10 suggests serious multicollinearity.
+Because 'Total attendance %' is derived from class-specific attendance,
+it may be highly correlated with lecture, workshop, and feedback attendance.

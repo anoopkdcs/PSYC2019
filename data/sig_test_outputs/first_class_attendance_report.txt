@@ -1,0 +1,30 @@
+FIRST-CLASS VS NON-FIRST-CLASS ATTENDANCE REPORT
+============================================================
+
+First class defined as: Module mark >= 69
+
+      Attendance type  N first-class  N non-first-class  Mean first-class  Mean non-first-class  Median first-class  Median non-first-class  Welch t      Welch p Welch p (exp) Welch significant  Mann-Whitney U        MWU p MWU p (exp) MWU significant          Direction
+ Lecture attendance %            115                113             66.23                 40.56                75.0                   41.67   7.5385 1.329042e-12      1.33e-12               Yes          9837.0 1.583488e-11    1.58e-11             Yes First-class higher
+Workshop attendance %            115                113             46.81                 24.41                50.0                   16.67   6.0295 6.762968e-09      6.76e-09               Yes          9282.0 1.760960e-08    1.76e-08             Yes First-class higher
+Feedback attendance %            115                113             45.94                 22.49                50.0                    8.33   6.0038 7.996930e-09      8.00e-09               Yes          9214.0 3.036537e-08    3.04e-08             Yes First-class higher
+
+INTERPRETATION
+------------------------------------------------------------
+Lecture attendance %:
+  Mean attendance was 66.23% for first-class students and 40.56% for non-first-class students.
+  Welch t-test: t = 7.5385, p = 1.33e-12 (Yes).
+  Mann-Whitney U test: U = 9837.0, p = 1.58e-11 (Yes).
+  Direction: First-class higher.
+
+Workshop attendance %:
+  Mean attendance was 46.81% for first-class students and 24.41% for non-first-class students.
+  Welch t-test: t = 6.0295, p = 6.76e-09 (Yes).
+  Mann-Whitney U test: U = 9282.0, p = 1.76e-08 (Yes).
+  Direction: First-class higher.
+
+Feedback attendance %:
+  Mean attendance was 45.94% for first-class students and 22.49% for non-first-class students.
+  Welch t-test: t = 6.0038, p = 8.00e-09 (Yes).
+  Mann-Whitney U test: U = 9214.0, p = 3.04e-08 (Yes).
+  Direction: First-class higher.
+
